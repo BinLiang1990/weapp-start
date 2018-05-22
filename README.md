@@ -89,25 +89,24 @@ weapp-start dev
 
 自定义插件文档 coming...
 
-* [weapp-plugin-babel](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-babel)
-* [weapp-plugin-eslint](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-eslint)
-* [weapp-plugin-less](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-less)
-* [weapp-plugin-pug](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-pug)
-* [weapp-plugin-require](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-require)
-* [weapp-plugin-stylus](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-stylus)
-* [weapp-plugin-filter](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-filter)
-* [weapp-plugin-jsmin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-jsmin)
-* [weapp-plugin-filemin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-filemin)
-* [weapp-plugin-imgmin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-imgmin)
-* [weapp-plugin-postcss](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-postcss)
+* [weapp-plugin-babel](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-babel) - 集成 [babel](https://github.com/babel/babel)，可以使用最新的 js 语法，而不必担心兼容
+* [weapp-plugin-eslint](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-eslint) - 集成 [eslint](https://github.com/eslint/eslint)，自动检测代码规范
+* [weapp-plugin-less](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-less) - 集成 [less](https://github.com/less/less.js)，使用 less 语法编写 wxss
+* [weapp-plugin-pug](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-pug) - 集成 [pug](https://github.com/pugjs/pug)，使用 pug 语法编写 wxml
+* [weapp-plugin-require](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-require) - 分析依赖，导入第三方 npm
+* [weapp-plugin-stylus](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-stylus) - 集成 [stylus](https://github.com/stylus/stylus)，使用 stylus 语法编写 wxss
+* [weapp-plugin-filter](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-filter) - 过滤文件
+* [weapp-plugin-jsmin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-jsmin) - 压缩 js
+* [weapp-plugin-filemin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-filemin) - 压缩 xml，json，css
+* [weapp-plugin-imgmin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-imgmin) - 压缩图片
+* [weapp-plugin-postcss](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-plugin-postcss) - 集成 [postcss](https://github.com/postcss/postcss)，可以使用最新的 css 语法和特效，而不必担心兼容
 * ...
 
 # Utils
 
-* [weapp-util-create-plugin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-util-create-plugin)
-* [weapp-util-requestfix-promisify](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-util-requestfix-promisify)
+* [weapp-util-create-plugin](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-util-create-plugin) - 创建插件的工具方法
+* [weapp-util-requestfix-promisify](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-util-requestfix-promisify) - 原生小程序所有api进行promise化；优化并发请求数量
 * [weapp-util-watch-computed](https://github.com/tolerance-go/weapp-start/tree/master/packages/weapp-util-watch-computed) - 使原生小程序支持 watch，computed 属性
-
 * ...
 
 # Links
